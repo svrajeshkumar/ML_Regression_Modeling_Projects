@@ -20,7 +20,8 @@ Classification Modeling -
 2. CASE STUDY : Diabetes Prediction 
 3. CASE STUDY : Heart Diseases Prediction 
 4.  CASE STUDY : Credit Card Fraud Detection 
-5.  
+
+
 DataSets Links
 
 https://www.kaggle.com/c/restaurant-revenue-prediction
