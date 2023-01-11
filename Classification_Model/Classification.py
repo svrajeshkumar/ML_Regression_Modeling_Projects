@@ -20,3 +20,12 @@ print(features[0])
 
 # Split our data
 train, test, train_labels, test_labels = train_test_split(features,labels, test_size=0.33,random_state=42)
+
+# Initialize our classifier
+gnb = GaussianNB()
+# Train our classifier
+model = gnb.fit(train, train_labels)
+
+# Make predictions
+preds = gnb.predict(test)
+print(preds)
